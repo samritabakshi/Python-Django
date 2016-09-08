@@ -1,0 +1,21 @@
+<!-- findingfabby/templates/index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fibonacci Series</title>
+    </head>
+    <body>
+        <h1>I want to print the fibonacci series</h1>
+	<a href="/about/">GitHub Link</a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<label> Enter The Nth term</label>
+	<form name="myForm" method="POST" action="/takeInput/">
+	{% csrf_token %}
+		<input type="text" name="number">
+	</form>
+    </body>
+</html>
