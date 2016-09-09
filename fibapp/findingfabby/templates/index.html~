@@ -13,7 +13,7 @@
 	<br>
 	<br>
 	<label> Enter The Nth term</label>
-	<form name="hey" method="POST" action="/takeInput/">
+	<form name="myForm" method="POST" action="/takeInput/">
 	{% csrf_token %}
 		<input type="text" name="number">
 	</form>
